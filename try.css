@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+}
+
+.aa {
+    background-color: rgb(201, 241, 136);
+}
+
+.ss{
+    background-color: rgba(126, 122, 69, 0.404);
+    padding: 50px;
+}
+
+.dd{
+    background-color: rgb(163, 219, 210);
+    padding: 50px;
+}
+
+.ff{
+    padding: 50px;
+    background-color: burlywood;
+}
+
+.gg{
+    height: auto;
+    padding: 10px;
+}
