@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-item {
+            display: inline-block;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-family: Arial, sans-serif;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #00ff00;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+            min-height: 70vh;
+            gap: 20px;
+        }
+
+        section {
+            flex: 2;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            overflow: auto;
+            width: 300px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            height: fit-content;
+            overflow: auto;
+            width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        header {
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .header-title {
+            font-family: Arial, sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-subtitle {
+            font-family: Arial, sans-serif;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">an amazing website</h1>
+        <p class="header-subtitle">Welcome to our amazing website</p>
+    </header>
+
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div>
+            <section>
+                <h2>Section 1</h2>
+                <p>mmmmmaamammamamamamamamamamamammamamamamammamaaamammamamaamamamamamamamamamamammaamamamamammamammammamamamamamamamamaamammaamamamamamamamamamaam</p>
+            </section>
+            
+            <section>
+                <h2>Section 2</h2>
+                <p>mmmmmaamammamamamamamamamamamammamamamamammamaaamammamamaamamamamamamamamamamammaamamamamammamammammamamamamamamamamaamammaamamamamamamamamamaam</p>
+            </section>
+        </div>
+        
+        <aside>
+            <h3>Sidebar</h3>
+            <p>mmmmmaamammamamamamamamamamamammamamamamammamaaamammamamaamamamamamamamamamamammaamamamamammamammammamamamamamamamamaamammaamamamamamamamamamaam</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>this is footer</p>
+    </footer>
+</body>
+</html>
